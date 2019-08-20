@@ -62,3 +62,27 @@ footer {
     border-top: solid 8px #4aaaa5;
     margin-top: 30px;
 }
+
+/** Portfolio **/
+
+#port1,
+#port2,
+#port3,
+#port4,
+#port5 {
+    height: auto%;
+    width: 50%;
+}
+
+h6 {
+    clear: both;
+    position: relative;
+    background: #4aaaa5;
+    width: 180px;
+    margin-left: 20px;
+    bottom: 35px;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
