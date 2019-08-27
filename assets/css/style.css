@@ -18,7 +18,8 @@ h1 {
 #navname {
     color: white;
 }
-#aboutmeHeader {
+#aboutmeHeader,
+#contactHeader {
     color: #4aaaa5;
 }
 
@@ -46,29 +47,34 @@ img {
     padding-right: 20px;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    background-color: #666;
-    border-top: solid 6px #4aaaa5;
-    padding-top: 15px;
+footer {
+    clear: both;
+    margin-top: 0px;
+    background: #666666;
+    border-top: solid 4px;
+    border-top-color: #4aaaa5;
+    font-size: 10px;
     text-align: center;
-    color: 
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+
+/** Sticky Footer not working **//
+.footer,
+.push {
+  height: 60px;
 }
 
 /** Portfolio **/
 
 .block {
     background-color: #fff;
-  
+    margin-top: 80px;
     padding: 30px;
     margin-bottom: 30px;
   }
   
   .block-header {
-    /* Typography */
     color: #4aaaa5;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
@@ -76,4 +82,28 @@ img {
 
   .port-image {
     margin: 20px auto;
+    
   }
+
+  h4 {
+    clear: both;
+    position: relative;
+    background: #4aaaa5;
+    width: 180px;
+    margin-left: 0px;
+    bottom: 65px;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+}
+
+/** Contact **/
+
+.btn-primary {
+    clear: both;
+    background: #4aaaa5;
+    border: 0
+}
+
